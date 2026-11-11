@@ -49,15 +49,6 @@ Console do H2: `http://localhost:8080/h2-console`
 - JDBC URL: `jdbc:h2:mem:biblioteca`
 - User: `sa` | Password: *(vazio)*
 
-## Testes
-
-```bash
-mvnw.cmd test
-```
-
-Os testes em `RelacionamentosIntegrationTest` verificam a persistência real dos três
-relacionamentos (inclusive a criação das constraints `UNIQUE` e da tabela intermediária).
-
 ## Estrutura do projeto
 
 ```
